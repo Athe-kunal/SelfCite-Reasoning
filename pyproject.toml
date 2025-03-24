@@ -1,0 +1,25 @@
+[project]
+name = "selfcite-reasoning"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Athe-kunal",email = "athekunal@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11,<4.0.0"
+dependencies = [
+    "datasets (>=3.4.1,<4.0.0)",
+    "ipykernel (>=6.29.5,<7.0.0)",
+    "pydantic (>=2.10.6,<3.0.0)",
+    "tqdm (>=4.67.1,<5.0.0)",
+    "transformers (>=4.50.0,<5.0.0)",
+    "torch (>=2.6.0,<3.0.0)",
+    "vllm (>=0.8.1,<0.9.0)",
+    "nltk (>=3.9.1,<4.0.0)",
+    "accelerate (>=1.5.2,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
